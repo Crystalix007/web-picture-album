@@ -1,0 +1,5 @@
+.title-bar {
+  display: grid;
+  grid-template-areas: title, close-button;
+  grid-template-columns: 1fr auto;
+}
