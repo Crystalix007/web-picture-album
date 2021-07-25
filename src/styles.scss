@@ -13,13 +13,3 @@ $app-warn: mat.define-palette(mat.$deep-orange-palette);
 $app-theme: mat.define-dark-theme($app-primary, $app-accent, $app-warn);
 
 @include mat.all-component-themes($app-theme);
-
-html,
-body,
-app-root,
-.app-frame {
-  overflow: hidden;
-  margin: 0;
-  height: 100vh;
-  box-sizing: border-box;
-}

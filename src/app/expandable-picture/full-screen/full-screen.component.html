@@ -1,9 +1,9 @@
-<div class="title-bar">
-  <h1 mat-dialog-title>Picture</h1>
-  <button mat-raised-button class="close" mat-dialog-close>X</button>
-</div>
-<div mat-dialog-content>
-  <a *ngIf="src" [href]="src" target="_blank">
-    <img [src]="src" />
-  </a>
+<div class="full-screen-container">
+  <div mat-dialog-title class="title-bar">
+    <h1 class="dialog-title">Picture</h1>
+    <button mat-raised-button class="close" mat-dialog-close>X</button>
+  </div>
+  <div mat-dialog-content class="centred">
+    <img class="full-screen-image" [src]="src" />
+  </div>
 </div>

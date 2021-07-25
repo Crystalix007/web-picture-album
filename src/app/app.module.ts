@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatButtonModule } from '@angular/material/button';
 import { MatRippleModule } from '@angular/material/core';
@@ -25,6 +26,7 @@ import { FullScreenComponent } from './expandable-picture/full-screen/full-scree
     MatDialogModule,
     MatButtonModule,
     MatRippleModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

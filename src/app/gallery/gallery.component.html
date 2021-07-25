@@ -1,1 +1,5 @@
-<app-expandable-picture></app-expandable-picture>
+<div class="gallery">
+  <ng-container *ngFor="let preview of previews">
+    <app-expandable-picture [src]="getPreviewSrc(preview)"></app-expandable-picture>
+  </ng-container>
+</div>
